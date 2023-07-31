@@ -1,0 +1,49 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans:wght@300&family=Inter:wght@300;400&family=Poppins:wght@400;600&family=Roboto+Slab&family=Source+Code+Pro:wght@300&display=swap');
+
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #6ac1e3;
+      margin: 188px;
+      padding: 0px;
+  }
+
+  .container {
+      max-width: 600px;
+      top: 60px;
+      margin: 0 auto;
+      padding: 19px;
+      background-color: #a59a9a;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+  }
+
+  .form-group label {
+      margin-right: 10px;
+      font-weight: bold;
+  }
+
+  .form-group input {
+      width: 100px;
+      padding: 5px;
+  }
+
+  .form-group button {
+      margin-left: 10px;
+      padding: 5px 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 3px;
+      background-color: #ff3600;
+      color: #ffffff;
+  }
+
+  .form-group button:hover {
+      background-color: #0056b3;
+  }
